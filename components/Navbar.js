@@ -1,13 +1,10 @@
 import React from 'react'
-import Link from 'next/Link'
 function Navbar() {
     return (
         <nav className="navbar lg:py-4 lg:px-10 drop-shadow-md">
 
             <div className="navbar-start ">
-                <Link href="/">
-                    <img className="w-32 cursor-pointer" src="./logo.svg" />
-                </Link>
+                <img className="w-32 cursor-pointer" src="./logo.svg" />
             </div>
             {/* <div className="navbar-end">
                 <div className="dropdown">
