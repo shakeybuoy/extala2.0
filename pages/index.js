@@ -84,9 +84,9 @@ export default function Home() {
           <div className="items-center lg:justify-between lg:flex ">
             <div className="lg:w-3/6">
               <h1 className="text-4xl font-bold text-center text-[#FB3D28]  capitalize mb-10 lg:text-left">Why us?</h1>
-              <ul class="list-disc px-4 text-lg lg:text-xl text-justify"><li class="mt-2">Extala understands the capabilities and functional capacity of Microsoft Power Platform and Microsoft Dynamics 365 to its full extent.</li><li class="mt-2">An experienced, committed and well equipped team which understands the platform and its applications well to deliver the best results.</li><li class="mt-2">Training employees to give their best, Extala can also assists in training your employees as well. In order to provide a seamless transition of using the platform.</li></ul>
+              <ul className="list-disc px-4 text-lg lg:text-xl text-justify"><li className="mt-2">Extala understands the capabilities and functional capacity of Microsoft Power Platform and Microsoft Dynamics 365 to its full extent.</li><li className="mt-2">An experienced, committed and well equipped team which understands the platform and its applications well to deliver the best results.</li><li className="mt-2">Training employees to give their best, Extala can also assists in training your employees as well. In order to provide a seamless transition of using the platform.</li></ul>
             </div>
-            <div class="divider lg:divider-horizontal"></div>
+            <div className="divider lg:divider-horizontal"></div>
             <div className="mt-8 lg:w-3/6">
               <div className="flex items-center justify-center">
                 <div className="max-w-lg">
