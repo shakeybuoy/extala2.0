@@ -17,7 +17,7 @@ export default function Home() {
           <img src="./1.png" className="md:max-w-xl px-5 rounded-lg " />
           <div>
             <h1 className="md:text-5xl text-4xl text-one-primary font-bold">Extala</h1>
-            <p className="py-6 md:text-xl text-lg">Extend your possibilities of managing and analysing interactions </p>
+            <p className="py-6 md:text-xl text-lg">Extend your management possibilities </p>
             <button className="btn text-white bg-one-primary duration-500 border-one-primary hover:bg-comp hover:text-gray-800 hover:border-comp drop-shadow-md ">Get Started</button>
           </div>
         </div>
@@ -101,7 +101,10 @@ export default function Home() {
           <div className="items-center  lg:justify-between lg:flex ">
             <div>
               <h1 className="text-4xl font-bold text-center text-one-primary mb-10 lg:text-left">Contact Us</h1>
-              <div className="text-xl py-10 text-gray-800"><h1 className="font-bold w-5/6">Corporate Headquarters</h1><h2 className="text-justify pt-3 w-5/6">302, Varsha Avenue,  104, Anand Park,  Aundh Pune-411 007</h2><h2 className="text-justify pt-1 w-5/6"><span className="font-bold pr-2">Telephone : </span>020 25881123/ 24</h2><h2 className="text-justify pt-1 w-5/6"><span className="font-bold pr-2">Email: </span><a className="decoration-[1px] underline underline-offset-4" href="mailto:Sales@extala.com">Sales@extala.com</a></h2></div>
+              <div className="text-xl py-5 text-gray-800"><h1 className="font-bold w-5/6">Corporate Headquarters</h1>
+                <h2 className="text-justify pt-3 w-5/6">  <span className="font-semibold">India -</span>  302, Varsha Avenue,  104, Anand Park,  Aundh Pune-411 007</h2>
+                <h2 className="text-justify pt-3 w-5/6"> <span className="font-semibold">US -</span> 5900 Sawmill Rd., Suite 200 Dublin, OH 43017-2588</h2>
+                <h2 className="text-justify pt-2 w-5/6"><span className="font-bold pr-2">Telephone - </span>020 25881123/ 24</h2><h2 className="text-justify pt-1 w-5/6"><span className="font-bold pr-2">Email - </span><a className="decoration-[1px] underline underline-offset-4" href="mailto:Sales@extala.com">Sales@extala.com</a></h2></div>
             </div>
             <div className="mt-8 lg:mt-0 lg:w-2/3">
               <div className="flex items-center justify-center">
