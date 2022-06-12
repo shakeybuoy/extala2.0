@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,17 +9,44 @@ body {
   padding: 0;
   margin: 0;
   color: #1f2937;
-  background: #f5f5f5;
+  background: #fff;
+  font-family: Rubik;
 }
 
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
+}
+.font-heading {
+  font-family: "Playfair Display", serif;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
-
 * {
   box-sizing: border-box;
 }
 .drop-shadow-md {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.21);
+}
+.hero-lines {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1063%26quot%3b)' fill='none'%3e%3cpath d='M1512 560L0 560 L0 394.12Q58.13 332.25%2c 120 390.39Q191.48 341.87%2c 240 413.34Q258.94 360.28%2c 312 379.22Q380.61 327.83%2c 432 396.43Q512.86 357.28%2c 552 438.14Q579.42 393.56%2c 624 420.99Q643.98 368.97%2c 696 388.95Q726.64 347.59%2c 768 378.23Q844.42 334.65%2c 888 411.08Q956.7 359.78%2c 1008 428.49Q1052.92 353.41%2c 1128 398.34Q1215.01 365.35%2c 1248 452.35Q1273.1 405.45%2c 1320 430.55Q1345.31 383.86%2c 1392 409.17Q1443.76 340.94%2c 1512 392.7z' fill='rgba(218%2c 37%2c 28%2c 1)'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 488.16Q50.92 467.08%2c 72 518Q98.83 424.83%2c 192 451.66Q270.99 410.65%2c 312 489.64Q359.42 465.06%2c 384 512.47Q392.35 448.82%2c 456 457.16Q504.37 385.53%2c 576 433.9Q663.88 401.78%2c 696 489.67Q738.17 459.84%2c 768 502.01Q768.85 430.86%2c 840 431.71Q894.08 413.79%2c 912 467.87Q982.15 418.02%2c 1032 488.18Q1069.12 405.3%2c 1152 442.41Q1201.17 419.58%2c 1224 468.75Q1267.56 440.31%2c 1296 483.86Q1348.51 464.38%2c 1368 516.89Q1396.57 425.45%2c 1488 454.02z' fill='rgba(245%2c 68%2c 59%2c 1)'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 500.28Q73.27 501.55%2c 72 574.82Q95.68 478.5%2c 192 502.19Q236.6 474.79%2c 264 519.4Q328.2 511.6%2c 336 575.8Q381.34 501.14%2c 456 546.48Q499.04 469.52%2c 576 512.56Q634.7 499.26%2c 648 557.96Q699.18 489.14%2c 768 540.33Q817.55 469.88%2c 888 519.44Q946.91 506.36%2c 960 565.27Q1009.79 495.06%2c 1080 544.84Q1135.97 528.81%2c 1152 584.77Q1152.73 513.5%2c 1224 514.24Q1252.54 470.78%2c 1296 499.32Q1348.22 479.54%2c 1368 531.77Q1419.34 463.11%2c 1488 514.45z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1063'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #da251c !important;
+}
+.swiper-pagination-bullet {
+  background-color: #da251c !important;
+}
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
