@@ -94,13 +94,13 @@ export default function Home() {
         </div>
       </section>
       <Services />
-      <section className="lg:my-20 lg:px-10 lg:mx-20 md:mx-10 md:p-5 p-2 containerOne bg-one-primary rounded-lg">
+      <section className="lg:my-20 lg:px-10 lg:mx-20 md:mx-10 md:p-5 p-2 containerOne  bg-one-primary rounded-lg">
         <div className="container px-6 py-8 mx-auto">
           <div className="items-center gap-10 text-xl text-white ">
 
             <div className="flex items-center justify-center">
               <div className="h-1 w-3/12 bg-white"></div>
-              <h1 className="text-6xl px-5 text-center uppercase font-bold font-heading text-white py-4 lg:text-left ">Let's Talk!
+              <h1 className="text-6xl px-5 text-center uppercase font-bold font-heading text-white py-4 lg:text-left ">Let&apos;s Talk!
               </h1>
               <div className="h-1 w-3/12 bg-white"></div>
             </div>
