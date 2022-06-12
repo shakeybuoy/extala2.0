@@ -65,7 +65,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="lg:my-20 lg:px-10 md:p-5 p-2 bg-one-primary rounded-lg ">
+      <section className="lg:my-20 lg:mx-20 md:mx-10 lg:px-10 containerOne md:p-5 p-2 bg-one-primary rounded-lg ">
         <div className="container px-6 py-8 mx-auto">
           <div className="items-center lg:justify-between lg:flex ">
             <div className="lg:w-6/6 text-lg">
@@ -94,7 +94,7 @@ export default function Home() {
         </div>
       </section>
       <Services />
-      <section className="lg:my-20 lg:px-10 md:p-5 p-2 bg-one-primary rounded-lg">
+      <section className="lg:my-20 lg:px-10 lg:mx-20 md:mx-10 md:p-5 p-2 containerOne bg-one-primary rounded-lg">
         <div className="container px-6 py-8 mx-auto">
           <div className="items-center gap-10 text-xl text-white ">
 
