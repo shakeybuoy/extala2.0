@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { useEffect } from 'react';
 import Services from '../components/Services'
@@ -22,7 +21,12 @@ export default function Home() {
         <meta name="description" content="CRM website" />
         <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
       </Head>
-      <Navbar />
+
+      <nav className="navbar z-20 bg-one-primary fixed top-0 left-0 lg:px-20 drop-shadow-lg">
+        <div className="navbar-start ">
+          <img className="w-32 rounded-md cursor-pointer" src="./extalaLogo.jpg" />
+        </div>
+      </nav>
 
       <header className="z-50 bg-one-primary absolute flex justify-center items-center h-screen">
         <div className="flex h-screen w-5/12 justify-between items-center z-20">
