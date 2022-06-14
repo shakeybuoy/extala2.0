@@ -45,15 +45,13 @@ a {
   background-color: #da251c !important;
 }
 section {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .containerOne {
   position: relative;
-  /* padding: 8px 8px 32px 8px; */
-  /* background: #dddccf; */
 }
 
 .containerOne:before {
