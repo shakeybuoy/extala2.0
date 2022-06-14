@@ -101,7 +101,6 @@ export default function Home() {
       <section className="lg:my-20 lg:px-10 lg:mx-20 md:mx-10 md:p-5 p-2 containerOne  bg-one-primary rounded-lg">
         <div className="container px-6 py-8 mx-auto">
           <div className="items-center gap-10 text-xl text-white ">
-
             <div className="flex items-center justify-center">
               <div className="h-1 w-3/12 bg-white"></div>
               <h1 className="text-6xl px-5 text-center uppercase font-bold font-heading text-white py-4 lg:text-left ">Let&apos;s Talk!
@@ -119,14 +118,28 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path className="fill-white" d="M7 40Q5.8 40 4.9 39.1Q4 38.2 4 37V11Q4 9.8 4.9 8.9Q5.8 8 7 8H41Q42.2 8 43.1 8.9Q44 9.8 44 11V37Q44 38.2 43.1 39.1Q42.2 40 41 40ZM24 24.9 7 13.75V37Q7 37 7 37Q7 37 7 37H41Q41 37 41 37Q41 37 41 37V13.75ZM24 21.9 40.8 11H7.25ZM7 13.75V11V13.75V37Q7 37 7 37Q7 37 7 37Q7 37 7 37Q7 37 7 37Z" /></svg>
               </div>
               <div className="px-5 py-2 self-start">
-                <h2 className="text-justify pt-2"><span className="font-bold pr-2">Telephone - </span>020 25881123/ 24</h2>
+                <div className="border-y p-2">
+                  <h2 className="font-bold text-lg">India</h2>
+                  <h2 className="text-justify pt-1"><span className="font-bold pr-2">Tel - </span>+91 20 25881123 / 24</h2>
+                  <h2 className="text-justify pt-1"><span className="font-bold pr-2">M - </span>+91 90110 08456</h2>
+                </div>
+                <div className="border-b mt-2 pb-2 px-2">
+                  <h2 className="font-bold text-lg">USA</h2>
+                  <h2 className="text-justify pt-1"><span className="font-bold pr-2">Tel - </span>+1 614-596-9988</h2>
+                </div>
               </div>
               <div className=" px-5 flex py-2 flex-col self-start">
-                <h2 className="text-justify">  <span className="font-semibold">India -</span>  302, Varsha Avenue,  104, Anand Park,  Aundh Pune-411 007</h2>
-                <h2 className="text-justify pt-3 "> <span className="font-semibold">US -</span> 5900 Sawmill Rd., Suite 200 Dublin, OH 43017-2588</h2>
+                <div className="border-y p-2">
+                  <h2 className="font-bold text-lg">India</h2>
+                  <h2 className="text-justify">302, Varsha Avenue,  104, Anand Park,  Aundh Pune-411 007</h2>
+                </div>
+                <div className="border-b mt-2 pb-2 px-2">
+                  <h2 className="font-bold text-lg">USA</h2>
+                  <h2 className="text-justify pt-3 ">5900 Sawmill Road, Suite 200 Dublin, OH 43017-2588</h2>
+                </div>
               </div>
               <div className="px-5 py-2 self-start">
-                <h2 className="text-justify pt-1 "><span className="font-bold pr-2">Email - </span> <a href="mailto:Sales@extala.com">Sales@extala.com</a> </h2>
+                <h2 className="text-justify text-lg pt-1 "><span className="font-bold pr-2">Email - </span> <a className="underline underline-offset-4" href="mailto:sales@extala.com">sales@extala.com</a> </h2>
               </div>
             </div>
 
