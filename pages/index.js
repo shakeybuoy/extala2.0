@@ -19,12 +19,10 @@ export default function Home() {
       </nav>
       <header className="z-50 bg-one-primary absolute flex lg:flex-row flex-col justify-center items-center w-full min-h-screen">
         <div className="flex lg:h-screen lg:w-5/12 w-full lg:justify-between justify-center items-center z-20">
-          <img src="./hero.jpg" className="lg:w-5/6 w-4/6 z-20" />
+          <img src="./hero.jpg" className="lg:w-5/6 w-4/6 md:w-3/6 z-20" />
         </div>
-        <div className="hero-lines bg-white rounded z-20 flex h-96 lg:h-[70vh] lg:w-5/12 w-10/12 justify-center items-center drop-shadow-lg">
-          <div>
-            <p className="pb-6 lg:text-3xl lg:font-semibold z-20 italic text-xl capitalize">"<span className="lg:text-4xl text-2xl font-bold">E</span>xtend your management possibilities"</p>
-          </div>
+        <div className="hero-lines bg-white rounded z-20 flex h-96 lg:h-[70vh] lg:w-5/12 w-10/12 justify-center items-center text-center">
+          <p className="pb-6 lg:text-3xl lg:font-semibold z-20 italic text-xl capitalize">&quot; <span className="lg:text-4xl text-2xl font-bold">E</span>xtend your management possibilities &quot;</p>
         </div>
       </header>
       <div className="min-h-screen mb-20"></div>
@@ -63,7 +61,7 @@ export default function Home() {
             <div className="lg:w-6/6 w-full text-lg">
               <div className="flex items-center justify-center">
                 <div className="h-1 lg:w-2/6 w-1/6 bg-white"></div>
-                <h1 className="lg:text-6xl text-3xl md:text-5xl px-10 text-center uppercase font-bold font-heading text-white py-4 lg:text-left ">Why us?
+                <h1 className="lg:text-6xl text-3xl md:text-5xl px-10 text-center uppercase font-bold font-heading text-white pb-6 lg:text-left ">Why us?
                 </h1>
                 <div className="h-1 lg:w-2/6 w-1/6 bg-white"></div>
               </div>
@@ -93,7 +91,7 @@ export default function Home() {
           <div className="items-center gap-10 text-xl text-white ">
             <div className="flex items-center justify-center">
               <div className="h-1 lg:w-3/12 w-1/12 bg-white"></div>
-              <h1 className="lg:text-6xl text-3xl px-5 text-center uppercase font-bold font-heading text-white py-4 lg:text-left ">Let&apos;s Talk!
+              <h1 className="lg:text-6xl text-3xl md:text-5xl px-5 text-center uppercase font-bold font-heading text-white pb-6 lg:text-left ">Let&apos;s Talk!
               </h1>
               <div className="h-1 lg:w-3/12 w-1/12 bg-white"></div>
             </div>
