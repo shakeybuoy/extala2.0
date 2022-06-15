@@ -22,7 +22,7 @@ export default function Home() {
           <img src="./hero.jpg" className="lg:w-5/6 w-4/6 md:w-3/6 z-20" />
         </div>
         <div className="hero-lines bg-white rounded z-20 flex h-96 lg:h-[70vh] lg:w-5/12 w-10/12 justify-center items-center text-center">
-          <p className="pb-6 lg:text-3xl lg:font-semibold z-20 italic text-xl capitalize">&quot; <span className="lg:text-4xl text-2xl font-bold">E</span>xtend your management possibilities &quot;</p>
+          <p className="pb-6 lg:text-3xl lg:font-semibold z-20 italic text-xl capitalize">&quot; Extend your management possibilities &quot;</p>
         </div>
       </header>
       <div className="min-h-screen mb-20"></div>
