@@ -1,0 +1,6 @@
+Sitemap: https://extala.com/api/posts-sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*

@@ -9,12 +9,7 @@ module.exports = {
       'gray-800': "#1F2937",
       'white': '#ffffff',
       'comp': '#28E6FB',
-
     },
-  },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["none"],
-  },
+  }
 
 }

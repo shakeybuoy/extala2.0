@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
-import { useEffect } from 'react';
 import Services from '../components/Services'
 
 export default function Home() {
@@ -16,8 +15,8 @@ export default function Home() {
         <meta name="description" content="'Extend your management possibilities'. Extala is a cloud solution provider . We help organizations achieve more from technology through Microsoft Power Platform and Microsoft Dynamics 365." />
         <meta name="keywords" content="CRM Website, SEO,Extala,Online CRM,CRM company,India CRM,USA CRM" />
       </Head>
-      <nav className="navbar z-20 bg-one-primary fixed top-0 left-0 lg:px-20 drop-shadow-lg">
-        <div className="navbar-start ">
+      <nav className="navbar z-20 bg-one-primary fixed w-full py-3 px-4 top-0 left-0 lg:px-20 drop-shadow-lg">
+        <div>
           <img className="w-32 rounded-lg cursor-pointer" src="./extalaLogo.jpg" />
         </div>
       </nav>
