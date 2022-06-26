@@ -9,8 +9,12 @@ export default function Home() {
     <>
       <Head>
         <title>Extala</title>
-        <meta name="description" content="CRM website" />
-        <link rel="shortcut icon" type="image/jpg" href="./favicon.png" />
+        <link rel="shortcut icon" type="image/jpg" href="./Extala_Logo.JPG" />
+        <link rel="icon" type="image/x-icon" href="./favicon.png" />
+        <meta property="og:title" content="Extala | Extend your management possibilities" />
+        <meta name="author" content="Abhishek Sharma" />
+        <meta name="description" content="'Extend your management possibilities'. Extala is a cloud solution provider . We help organizations achieve more from technology through Microsoft Power Platform and Microsoft Dynamics 365." />
+        <meta name="keywords" content="CRM Website, SEO,Extala,Online CRM,CRM company,India CRM,USA CRM" />
       </Head>
       <nav className="navbar z-20 bg-one-primary fixed top-0 left-0 lg:px-20 drop-shadow-lg">
         <div className="navbar-start ">
